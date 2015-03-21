@@ -15,7 +15,7 @@ import UIKit
 
 //Creating a new variable.
 /*
-    Swift has two reserved word for variable declaration: var and let. (We'll explain the difference in the next section)
+    Swift has two reserved word for variable declaration: var and let.
 
 */
 var name = "Anthony"
@@ -30,26 +30,26 @@ let lastname = "Rodriguez"
     * float
     * more... 
 
-    Swift is not a typed language. It means that the variable can be declared or created without specifying the type of date that 
+    Swift is not a forced typed language. It means that the variable can be declared or created without specifying the type of variable that
     it will be containing. In this case the data itself defines the type of the variable. 
 
     Said so, a variable can be implicitly or explicitly declared. 
 
 */
 
-// The type is implicitly declared.
+// The type is explicitly declared.
 var str = "Hello, playground"
 
-// The type is explicitly declared.
+// The type is implicitly declared.
 var shape: String = "Triangle"
 
-// *The same using let*
-
-// The type is implicitly declared.
-var str2 = "Hello, playground"
+// let is a keyword reserved for constant variable declaration. It means the once the value is assigned, it can't be changed.
 
 // The type is explicitly declared.
-var shape2: String = "Rectangle"
+let str2 = "Hello, playground"
+
+// The type implicitely declared.
+let shape2: String = "Rectangle"
 
 
 //End of section. Thanks.
