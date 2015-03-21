@@ -15,7 +15,7 @@ import UIKit
 
 //Creating a new variable.
 /*
-    Swift has two reserved word for variable declaration: var and let.
+    Swift has two reserved word for variable declaration: var and let. (We'll explain the difference in the next section)
 
 */
 var name = "Anthony"
@@ -52,7 +52,7 @@ var str2 = "Hello, playground"
 var shape2: String = "Rectangle"
 
 
-//End of section. Thanks. 
+//End of section. Thanks.
 
 
 
