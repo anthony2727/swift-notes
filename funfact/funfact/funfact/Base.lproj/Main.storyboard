@@ -23,7 +23,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Pem-py-X98"/>
                                 </constraints>
-                                <color key="tintColor" red="0.31417273849835303" green="0.81963621731658454" blue="0.89153251262626265" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.9882352941176471" green="0.44705882352941179" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Get FACT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -31,25 +31,25 @@
                                     <action selector="factButton" destination="vXZ-lx-hvc" eventType="touchUpInside" id="u0I-lM-RMv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="53" placeholderIntrinsicHeight="21" text="A very interesting this goes here in this label " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzc-SM-5HN">
-                                <rect key="frame" x="35" y="92" width="250" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="53" placeholderIntrinsicHeight="21" text="A very interesting this goes here in this label " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzc-SM-5HN">
+                                <rect key="frame" x="35" y="92" width="250" height="116"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="1vc-dZ-Osb"/>
+                                    <constraint firstAttribute="height" constant="116" id="1vc-dZ-Osb"/>
                                     <constraint firstAttribute="width" constant="250" id="3BT-IF-tes"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="azq-DY-Gom"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="27"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DID YOU KNOW?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcq-z5-ovH">
-                                <rect key="frame" x="35" y="54" width="137" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="35" y="54" width="211.5" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <color key="textColor" red="0.78476167929292928" green="0.47757707628005924" blue="0.36218459706710709" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.40590945119146504" green="0.92553587445863605" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.55070619304022506" blue="0.85251486996456438" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="8wQ-04-VZR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="44" id="3pb-Ue-ZxB"/>
                             <constraint firstItem="Kcq-z5-ovH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="19" id="EKT-5U-if4"/>

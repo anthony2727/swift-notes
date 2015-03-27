@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0EF51E1AC5F53800A1FF9E /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0EF51D1AC5F53800A1FF9E /* ColorWheel.swift */; };
 		AEEEE2F81AC1E16500ADD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEEE2F71AC1E16500ADD714 /* AppDelegate.swift */; };
 		AEEEE2FA1AC1E16500ADD714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEEE2F91AC1E16500ADD714 /* ViewController.swift */; };
 		AEEEE2FD1AC1E16500ADD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEEE2FB1AC1E16500ADD714 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE0EF51D1AC5F53800A1FF9E /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 		AEEEE2F21AC1E16500ADD714 /* funfact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funfact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEEE2F61AC1E16500ADD714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEEEE2F71AC1E16500ADD714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				AEEEE3001AC1E16500ADD714 /* LaunchScreen.xib */,
 				AEEEE2F51AC1E16500ADD714 /* Supporting Files */,
 				AEEEE3171AC260AA00ADD714 /* FunFactBook.swift */,
+				AE0EF51D1AC5F53800A1FF9E /* ColorWheel.swift */,
 			);
 			path = funfact;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				AEEEE3181AC260AA00ADD714 /* FunFactBook.swift in Sources */,
 				AEEEE2FA1AC1E16500ADD714 /* ViewController.swift in Sources */,
 				AEEEE2F81AC1E16500ADD714 /* AppDelegate.swift in Sources */,
+				AE0EF51E1AC5F53800A1FF9E /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				AEEEE3131AC1E16600ADD714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEEEE3141AC1E16600ADD714 /* Build configuration list for PBXNativeTarget "funfactTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				AEEEE3161AC1E16600ADD714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
