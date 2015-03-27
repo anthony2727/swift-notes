@@ -62,6 +62,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="ButtonLabel" destination="8wQ-04-VZR" id="ncT-gX-oog"/>
                         <outlet property="factLabel" destination="Fzc-SM-5HN" id="pwz-dE-63f"/>
                     </connections>
                 </viewController>
